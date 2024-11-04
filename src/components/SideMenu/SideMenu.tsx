@@ -1,5 +1,5 @@
 import { IoEarth } from 'react-icons/io5'
-// import NavList from ''
+import NavList from '@/components/NavList/NavList'
 
 const SideMenu = () => {
   return (
@@ -7,7 +7,7 @@ const SideMenu = () => {
       <h1 className='flex justify-center px-4 text-2xl font-bold'>
         <IoEarth className='size-10' />
       </h1>
-      {/* <NavList /> */}
+      <NavList />
     </div>
   )
 }
