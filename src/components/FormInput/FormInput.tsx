@@ -29,7 +29,6 @@ const FormInput = () => {
     })
 
     const { aiMessage } = await response.json()
-    
     dispatch(inputMessageToReduxStore({
       message: aiMessage,
       pathname,
